@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, erlangChat,
+ [{description, "erlangChat"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'erlangChat_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}]}.

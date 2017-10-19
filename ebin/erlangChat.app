@@ -1,0 +1,11 @@
+{application,erlangChat,
+             [{description,"erlangChat"},
+              {vsn,"0.1"},
+              {modules,[erlangChat,erlangChat_app,erlangChat_deps,
+                        erlangChat_dtl,erlangChat_sup,erlangChat_web,
+                        greeting_dtl,greeting_shortcuts,greeting_views,
+                        helpers,struct,tablesdb]},
+              {registered,[]},
+              {mod,{erlangChat_app,[]}},
+              {env,[]},
+              {applications,[kernel,stdlib,crypto]}]}.
