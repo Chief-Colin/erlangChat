@@ -12,3 +12,5 @@ TO SET UP THE APPLICATION, RUN:
 TO SETUP MNESIA DATABASE
 ------------------------------------------
 1. tablesdb:reset().
+
+You will find the webpage on: http://localhost:8080
